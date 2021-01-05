@@ -1,0 +1,10 @@
+<ion-grid id="content">
+  <ion-row>
+    <ion-col>
+      <ion-title *ngFor="let pokemons of listapokemons" size="large" >{{ pokemons.name }}</ion-title>
+      <ion-avatar id="avatar">
+        <img  src="../../assets/images/pikachu.png">
+      </ion-avatar>    
+    </ion-col>
+  </ion-row>
+</ion-grid>
